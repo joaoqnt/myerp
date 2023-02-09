@@ -10,6 +10,6 @@ public class CidadeCt {
 		//teste
 		CidadeDao dao = new CidadeDao();
 		return dao.select();
-		//asdfasdasasdfasfasd
+
 	}
 }
