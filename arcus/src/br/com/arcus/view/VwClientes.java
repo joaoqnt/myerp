@@ -7,7 +7,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.Collections;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -474,6 +473,7 @@ public class VwClientes extends JFrame {
 						carregaTabela();
 						limpaTxt();
 						fechaEdicao();
+						btnCadastrar.setEnabled(true);
 					} else {
 						
 					}
@@ -508,6 +508,7 @@ public class VwClientes extends JFrame {
 						carregaTabela();
 						limpaTxt();
 						btnSalvar.setEnabled(false);
+						btnCadastrar.setEnabled(true);
 					}else {
 						JOptionPane.showMessageDialog(null, "Dados incorretos");
 					}

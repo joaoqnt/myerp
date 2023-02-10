@@ -7,7 +7,6 @@ import br.com.arcus.model.Cidade;
 
 public class CidadeCt {
 	public List<Cidade> listagem(){
-		//teste
 		CidadeDao dao = new CidadeDao();
 		return dao.select();
 
